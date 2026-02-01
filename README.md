@@ -26,8 +26,10 @@ DoMaTeXはMarkdown風記法でLaTeX文書を簡単に作成できるラッパー
 1. Racketを公式サイトからダウンロードしてインストールしてください:  
    [https://racket-lang.org/](https://racket-lang.org/)
 2. LaTeX環境（lualatex + latexmk）が必要です  
-   - ほとんどのLaTeXユーザーは既に導入済みです
-3. DoMaTeXスクリプトをダウンロードしてください
+3. DoMaTeXスクリプトをダウンロードしてください：
+```bash
+$ git clone https://github.com/Anko7919/domatex.git
+```
 
 ---
 
