@@ -1,33 +1,6 @@
 # DoMaTeX v0.1
+---
 
-DoMaTeXはMarkdown風記法でLaTeX文書を簡単に作成できるラッパーです。
-本文だけに集中でき、スタイルや設定を再利用しやすく設計されています。
-
-## 特徴
-
-- Markdownライクな記法で直感的に記述可能
-- 設定ファイルによるスタイルの再利用
-- LaTeXネイティブ埋め込み可能（自己責任）
-- 小さくシンプルで、v0.1では愚直な変換を行う
-
-## 対象ユーザー
-
-- LaTeXを使うが本文だけ書きたい人
-- 論文やレポート作成など、LaTeXをメインに扱わない研究者・学生
-
-## インストール
-
-1. Racketを公式サイトからダウンロードしてインストールしてください:  
-   [https://racket-lang.org/](https://racket-lang.org/)
-2. LaTeX環境（lualatex + latexmk）が必要です  
-3. DoMaTeXスクリプトをダウンロードしてください：
-```bash
-$ git clone https://github.com/Anko7919/domatex.git
-```
-
-## 使い方
-
-```bash
-racket domatex.rkt build example.md -c config.yaml
-```
+Markdownライクな独自記法のテキストをLaTeXソースに変換する
+コンバータです．
 
